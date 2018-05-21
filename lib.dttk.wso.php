@@ -43,7 +43,7 @@
 			return $output[0];
 		}
 
-		public function COMEvent( $object, $event, callable $fn, $type="Control" ){
+		public function AttachCOMEvent( $object, $event, callable $fn, $type="Control" ){
 
 			$handler = new class(){
 
@@ -66,7 +66,7 @@
     			}
 
 			};
-			$handler->addMethod($event,$fn);
+			$handler->addMethod(strtolower($event),$fn);
 			// var_dump( $handler );
 
 			$dispinterfaces = [ 

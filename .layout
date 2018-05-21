@@ -1,28 +1,27 @@
 {
     UniqueId:Form1
-    Left:557
-    Top:240
-    Width:616
-    Height:439
+    Left:552
+    Top:220
+    Width:816
+    Height:639
     Align:0
     Visible:1
     PageControlTag:0
-    Maximize:1
     {
         DockType:Frame
-        Left:0
+        Left:155
         Top:0
-        Width:1920
-        Height:696
+        Width:645
+        Height:475
         Align:10
         Visible:1
         PageControlTag:0
         {
             DockType:Frame
-            Left:227
+            Left:0
             Top:0
-            Width:1693
-            Height:696
+            Width:318
+            Height:475
             Align:10
             Visible:1
             PageControlTag:0
@@ -30,8 +29,8 @@
                 DockType:TabControl
                 Left:0
                 Top:0
-                Width:1693
-                Height:264
+                Width:318
+                Height:233
                 Align:10
                 Visible:1
                 PageControlTag:0
@@ -39,8 +38,8 @@
                     DockType:Tab
                     Left:3
                     Top:25
-                    Width:1687
-                    Height:236
+                    Width:312
+                    Height:205
                     Align:0
                     Visible:1
                     PageControlTag:0
@@ -48,8 +47,8 @@
                         UniqueId:Doc1
                         Left:0
                         Top:0
-                        Width:1687
-                        Height:236
+                        Width:312
+                        Height:205
                         Align:10
                         Visible:1
                         PageControlTag:0
@@ -59,9 +58,9 @@
             {
                 DockType:TabControl
                 Left:0
-                Top:269
-                Width:1693
-                Height:427
+                Top:238
+                Width:318
+                Height:237
                 Align:5
                 Visible:1
                 PageControlTag:0
@@ -69,17 +68,17 @@
                     DockType:Tab
                     Left:3
                     Top:25
-                    Width:1687
-                    Height:399
+                    Width:312
+                    Height:209
                     Align:0
                     Visible:1
                     PageControlTag:0
                     {
-                        UniqueId:Doc3
+                        UniqueId:Doc2
                         Left:0
                         Top:0
-                        Width:1687
-                        Height:399
+                        Width:312
+                        Height:209
                         Align:10
                         Visible:1
                         PageControlTag:0
@@ -89,28 +88,28 @@
         }
         {
             DockType:TabControl
-            Left:0
+            Left:323
             Top:0
-            Width:222
-            Height:696
-            Align:1
+            Width:322
+            Height:475
+            Align:2
             Visible:1
             PageControlTag:0
             {
                 DockType:Tab
                 Left:3
                 Top:25
-                Width:216
-                Height:668
+                Width:316
+                Height:447
                 Align:0
                 Visible:1
                 PageControlTag:0
                 {
-                    UniqueId:Doc2
+                    UniqueId:Doc3
                     Left:0
                     Top:0
-                    Width:216
-                    Height:668
+                    Width:316
+                    Height:447
                     Align:10
                     Visible:1
                     PageControlTag:0
@@ -121,9 +120,9 @@
     {
         DockType:PageControl
         Left:0
-        Top:701
-        Width:1920
-        Height:296
+        Top:480
+        Width:800
+        Height:100
         Align:5
         Visible:1
         PageControlTag:0
@@ -131,8 +130,28 @@
             DockType:Page
             Left:0
             Top:19
-            Width:1920
-            Height:277
+            Width:800
+            Height:62
+            Align:0
+            Visible:0
+            PageControlTag:0
+            {
+                UniqueId:Search
+                Left:0
+                Top:0
+                Width:800
+                Height:62
+                Align:10
+                Visible:1
+                PageControlTag:0
+            }
+        }
+        {
+            DockType:Page
+            Left:0
+            Top:19
+            Width:800
+            Height:62
             Align:0
             Visible:1
             PageControlTag:0
@@ -140,8 +159,8 @@
                 UniqueId:Console
                 Left:0
                 Top:0
-                Width:1920
-                Height:277
+                Width:800
+                Height:62
                 Align:10
                 Visible:1
                 PageControlTag:0
@@ -149,83 +168,73 @@
         }
     }
     {
-        DockType:Form
-        Left:657
-        Top:286
-        Width:166
-        Height:276
-        Align:0
-        Visible:0
+        DockType:PageControl
+        Left:0
+        Top:0
+        Width:150
+        Height:475
+        Align:1
+        Visible:1
         PageControlTag:0
         {
-            UniqueId:Context
+            DockType:Page
             Left:0
-            Top:0
+            Top:19
             Width:150
-            Height:237
-            Align:10
-            Visible:1
+            Height:437
+            Align:0
+            Visible:0
             PageControlTag:0
+            {
+                UniqueId:Context
+                Left:0
+                Top:0
+                Width:150
+                Height:437
+                Align:10
+                Visible:1
+                PageControlTag:0
+            }
         }
-    }
-    {
-        DockType:Form
-        Left:662
-        Top:288
-        Width:166
-        Height:276
-        Align:0
-        Visible:0
-        PageControlTag:0
         {
-            UniqueId:Index
+            DockType:Page
             Left:0
-            Top:0
+            Top:19
             Width:150
-            Height:237
-            Align:10
-            Visible:1
+            Height:437
+            Align:0
+            Visible:0
             PageControlTag:0
+            {
+                UniqueId:Index
+                Left:0
+                Top:0
+                Width:150
+                Height:437
+                Align:10
+                Visible:1
+                PageControlTag:0
+            }
         }
-    }
-    {
-        DockType:Form
-        Left:662
-        Top:288
-        Width:166
-        Height:295
-        Align:0
-        Visible:0
-        PageControlTag:0
         {
-            UniqueId:Help
+            DockType:Page
             Left:0
-            Top:0
+            Top:19
             Width:150
-            Height:256
-            Align:10
+            Height:437
+            Align:0
             Visible:1
             PageControlTag:0
-        }
-    }
-    {
-        DockType:Form
-        Left:663
-        Top:569
-        Width:616
-        Height:101
-        Align:0
-        Visible:0
-        PageControlTag:0
-        {
-            UniqueId:Search
-            Left:0
-            Top:0
-            Width:600
-            Height:62
-            Align:10
-            Visible:1
-            PageControlTag:0
+            {
+                UniqueId:Help
+                Left:0
+                Top:0
+                Width:150
+                Height:437
+                Align:10
+                Visible:1
+                PageControlTag:0
+            }
         }
     }
 }

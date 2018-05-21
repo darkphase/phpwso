@@ -17,7 +17,7 @@
 	$button = $form->CreateButton(10,10,75,25,"Test");
 	$button->Default = true;
 
-	$wsow->COMEvent( $button, "onclick", 
+	$wsow->AttachCOMEvent( $button, "onclick", 
 		function(){
 			global $form;
 			$form->MessageBox("Test","TEST TITLE", MB_OKCANCEL);
